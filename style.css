@@ -40,7 +40,47 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sessão Menu*/
 
-section.menu{
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 9.5rem ;
+    padding: 2rem 0;
+
+}
+
+.menu header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    
+
+}
+
+.menu__title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #464646;
+}
+
+.menu nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #464646;
+
+}
+
+.menu__list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    
 
 }
 
