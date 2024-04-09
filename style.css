@@ -167,10 +167,67 @@ https://en.bem.info/methodology/quick-start/*/
     height: 52px;
 }
 
+/*Sessão Skills*/
+
+.skills {  
+    margin: 2rem 9.5rem 5.5rem 9.5rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.skills__title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #464646;
+}
+
+.skills__line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.skills__box > ul {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 176px;
+    height: 174px;
+    justify-content: flex-end;
+    padding: 1rem;
+}
 /*Sessão Hobbies*/
 
-section.hobbies{
-    
+.hobbies{
+    margin: 0 9.5rem 5.5rem 9.5rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hobbies__title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #464646;
+}
+
+.hobbies__line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hobbies__box > ul {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 176px;
+    height: 174px;
+    justify-content: flex-end;
+    padding: 1rem;
 }
 
 /* Experiência Acadêmica*/
