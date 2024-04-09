@@ -9,12 +9,15 @@ coloque nas sessões indicadas*/
    --cor-de-link: #000;
 }
 
-body {
-    box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
-    font-family: 'Raleway';
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
     line-height: 1;
 }
 ol, ul,li {
@@ -86,9 +89,47 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sessão Title*/
 
-section.title{
+.title__div{
+    margin: 2rem 9.5rem ;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
 
 }
+
+.title__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.title__bio {
+    font-size: 3.25rem;
+    font-weight: 700;
+    color: #464646;
+}
+
+.title__subsection {
+    font-size: 1.375rem;
+    font-weight: 400;
+    color: #464646;
+}
+
+.title__network {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #464646;
+    gap: 2rem;
+}
+
+
+
+
 
 /*Sessão About*/
 
