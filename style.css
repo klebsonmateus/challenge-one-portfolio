@@ -46,8 +46,11 @@ https://en.bem.info/methodology/quick-start/*/
 .menu{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    margin: 0 9.5rem ;
+    max-width: 1136px;
+    margin: 0 auto ;
+    margin-bottom: 2rem;
     padding: 2rem 0;
 
 }
@@ -83,14 +86,21 @@ https://en.bem.info/methodology/quick-start/*/
     flex-direction: row;
     align-items: center;
     gap: 2rem;
-    
+}
 
+.menu__list__item__contato {
+    font-weight: bold;
 }
 
 /*Sessão Title*/
+.title {
+    max-width: 1136px;
+    margin: 0 auto ; 
+    /* padding: 0 1rem; */
+
+}
 
 .title__div{
-    margin: 2rem 9.5rem ;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -135,16 +145,18 @@ https://en.bem.info/methodology/quick-start/*/
 
 .about{
     background-color: #EAF2FD;
-    padding: 4rem 0;
+    
 
 }
 
 .about__container {
+    max-width: 1136px;
+    margin: 0 auto ;
+    padding: 4rem 0;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     justify-content: flex;
-    margin: 0 9.5rem ;
     
 
 }
@@ -159,7 +171,6 @@ https://en.bem.info/methodology/quick-start/*/
     font-size: 1rem;
     font-weight: 400;
     color: #464646;
-    margin-right: 24rem;
 }
 
 .about__container > img {
@@ -170,7 +181,8 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sessão Skills*/
 
 .skills {  
-    margin: 2rem 9.5rem 5.5rem 9.5rem ;
+    max-width: 1136px;
+    margin: 0 auto ;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -201,7 +213,8 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sessão Hobbies*/
 
 .hobbies{
-    margin: 0 9.5rem 5.5rem 9.5rem ;
+    max-width: 1136px;
+    margin: 0 auto ;
     display: flex;
     flex-direction: column;
     gap: 2rem;
