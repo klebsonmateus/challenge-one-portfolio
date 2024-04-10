@@ -250,8 +250,66 @@ https://en.bem.info/methodology/quick-start/*/
 
 /* Experiência Acadêmica*/
 
-section.academic{
+.academic{
+    background-color: #EAF2FD;
+}
 
+.academic__container {
+    max-width: 1136px;
+    margin: 0 auto;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.academic__title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #464646;
+    text-align: center;
+}
+
+.academic__courses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.academic__courses__list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.academic__courses__item__img{
+    background-color: white;
+    width: 368px;
+    height: 286px;
+    display: flex;
+    /* justify-content: center; */
+    
+}
+
+.academic__courses__item__img>img{
+    
+    margin: auto;
+    /* display: block; */
+}
+
+.academic__courses__item__title {
+    font-size: 1.365rem;
+    font-weight: 700;
+    color: #464646;
+}
+
+.academic__courses__item__subtitle {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #464646;
 }
 
 /* experiência*/
