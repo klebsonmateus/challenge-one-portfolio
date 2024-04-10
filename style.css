@@ -96,7 +96,7 @@ https://en.bem.info/methodology/quick-start/*/
 .title {
     max-width: 1136px;
     margin: 0 auto ; 
-    /* padding: 0 1rem; */
+    margin-bottom: 2rem;
 
 }
 
@@ -112,6 +112,7 @@ https://en.bem.info/methodology/quick-start/*/
 .title__container {
     display: flex;
     flex-direction: column;
+    padding-right: 1rem;
     gap: 1.5rem;
 }
 
@@ -171,6 +172,7 @@ https://en.bem.info/methodology/quick-start/*/
     font-size: 1rem;
     font-weight: 400;
     color: #464646;
+    padding-right: 24rem;
 }
 
 .about__container > img {
@@ -182,7 +184,8 @@ https://en.bem.info/methodology/quick-start/*/
 
 .skills {  
     max-width: 1136px;
-    margin: 0 auto ;
+    margin: 2rem auto 5.5rem auto ;
+    margin-bottom: 5.5rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -192,6 +195,7 @@ https://en.bem.info/methodology/quick-start/*/
     font-size: 2rem;
     font-weight: 700;
     color: #464646;
+    text-align: center;
 }
 
 .skills__line {
@@ -214,7 +218,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 .hobbies{
     max-width: 1136px;
-    margin: 0 auto ;
+    margin: 0 auto 5.5rem auto ;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -224,6 +228,7 @@ https://en.bem.info/methodology/quick-start/*/
     font-size: 2rem;
     font-weight: 700;
     color: #464646;
+    text-align: center;
 }
 
 .hobbies__line {
