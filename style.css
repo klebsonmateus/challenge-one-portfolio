@@ -491,7 +491,6 @@ utilize como referência os breakpoints @media abaixo*/
 }
 /*title*/
 .title {
-    max-width: 100%;
     margin: 2rem ; 
 }
 
@@ -511,6 +510,23 @@ utilize como referência os breakpoints @media abaixo*/
 .title__network {
     gap: 2rem;
 }
+
+/*About*/
+.about__container {
+    margin: 0;
+    padding: 32px;
+}
+
+.about__title {
+    font-size: 1.375rem;
+}
+
+.about__paragraph{
+    font-size: 0.875rem;
+    padding: 0;
+}
+
+
 /*Skills*/
 
 /*Hobbies*/
