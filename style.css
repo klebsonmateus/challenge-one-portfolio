@@ -478,7 +478,8 @@ utilize como referência os breakpoints @media abaixo*/
 
 /* Menu */
 .menu{
-    margin: -1rem 1rem;
+    margin: 1rem;
+    padding: 0;
 }
 .menu__list {
     display: none;
