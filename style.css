@@ -290,14 +290,11 @@ https://en.bem.info/methodology/quick-start/*/
     width: 368px;
     height: 286px;
     display: flex;
-    /* justify-content: center; */
     
 }
 
 .academic__courses__item__img>img{
-    
-    margin: auto;
-    /* display: block; */
+       margin: auto;
 }
 
 .academic__courses__item__title {
@@ -575,10 +572,40 @@ utilize como referência os breakpoints @media abaixo*/
 }
 
 /*Experiências acadêmicas*/
+.academic__container{
+    margin: 2rem;
+}
+
+.academic__title{
+    font-size: 1.375rem;
+}
+
+.academic__courses{
+    width: 704px;
+    margin: 0 auto;
+}
+
+.academic__courses__item__img{
+    width: 224px;
+    height: 118px;
+}
+
+.academic__courses__item__img>img{
+    height: 58px;
+}
+
+.academic__courses__item__title {
+    font-size: 1rem;
+}
+
+.academic__courses__item__subtitle {
+    font-size: 0.875rem;
+}
+
 
 /*Expeirência profissional*/
 
-}
+
 
 /*Mobile*/
 @media (max-width: 425px) {
