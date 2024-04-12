@@ -470,7 +470,7 @@ background-color: #EAF2FD;
 utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
-@media (min-width: 768px) and (max-width: 1200px)  {
+@media (min-width: 768px) and (max-width: 1199px)  {
 
 
 /* Menu */
@@ -482,10 +482,7 @@ utilize como referência os breakpoints @media abaixo*/
     display: none;
 }
 
-.menu__list__item__contato {
-    font-weight: 400;
-    font-size: 1rem;
-}
+
 /*title*/
 .title {
     margin: 2rem ; 
@@ -663,14 +660,23 @@ utilize como referência os breakpoints @media abaixo*/
     font-size: 0.875rem;
 }
 /*Footer*/
-
+}
 /*Mobile*/
-@media (max-width: 425px) {
-    body {
-        background-color: blue;
-    }
-/*Menu*/
+@media (min-width: 425px) and (max-width: 767px) {
 
+/*Menu*/
+.menu{
+    margin: 1rem;
+    padding: 0;
+}
+.menu__list {
+    display: none;
+}
+
+.menu__list__item__contato {
+    font-weight: 400;
+    font-size: 1rem;
+}
 /*Titulo*/
 
 /*Sessão sobre*/
