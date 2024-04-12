@@ -473,8 +473,11 @@ background-color: #EAF2FD;
 utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
+    body {
+        background-color: red;
+    }
 /* Menu */
 
 /*title*/
@@ -490,8 +493,10 @@ utilize como referência os breakpoints @media abaixo*/
 }
 
 /*Mobile*/
-@media (min-width: 425px) {
-
+@media (max-width: 425px) {
+    body {
+        background-color: blue;
+    }
 /*Menu*/
 
 /*Titulo*/
