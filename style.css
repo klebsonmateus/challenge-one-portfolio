@@ -640,6 +640,30 @@ utilize como referência os breakpoints @media abaixo*/
     font-size: 0.875rem;
 }
 
+/*Contato*/
+.formcontato__contacto{
+    padding: 2rem;
+}
+
+.formcontato__img{
+    display: none;
+}
+
+.formcontato__title{
+    font-size: 1.375rem;
+}
+
+.formcontato__subtitle{
+    font-size: 1rem;
+}
+
+.formcontato__botao{
+    width: 151px;
+    height: 40px;
+    font-size: 0.875rem;
+}
+/*Footer*/
+
 /*Mobile*/
 @media (max-width: 425px) {
     body {
