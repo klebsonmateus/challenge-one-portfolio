@@ -357,7 +357,7 @@ https://en.bem.info/methodology/quick-start/*/
     color: #464646;
 }
 
-.experiencia__botao--repo {
+.experience__botao--repo {
     width: 116px;
     height: 51px;
     background-color: #F5F5F5;
@@ -367,7 +367,7 @@ https://en.bem.info/methodology/quick-start/*/
     font-weight: 400;
 }
 
-.experiencia__botao--demo {
+.experience__botao--demo {
     width: 116px;
     height: 51px;
     background-color: #2A7AE4;
@@ -551,6 +551,7 @@ utilize como referência os breakpoints @media abaixo*/
 
 .hobbies {
     margin: 2rem;
+    margin-bottom: 0;
 }
 
 .hobbies__title {
@@ -573,7 +574,7 @@ utilize como referência os breakpoints @media abaixo*/
 
 /*Experiências acadêmicas*/
 .academic__container{
-    margin: 2rem;
+    padding: 2rem;
 }
 
 .academic__title{
@@ -603,9 +604,41 @@ utilize como referência os breakpoints @media abaixo*/
 }
 
 
-/*Expeirência profissional*/
+/*Experiência profissional*/
 
+.experience{
+    margin: 0;
+    gap: 4rem;
+}
 
+.experience__section__title{
+    font-size: 1.375rem;
+}
+
+.experience__box {
+    flex-direction: column;
+}
+
+.experience__box:nth-child(odd) {
+    flex-direction: column;
+}
+
+.experience__img {
+    width: 704px;
+    height: 320px;
+}
+
+.experience__info{
+    width: 704px;
+}
+
+.experience__title {
+    font-size: 1rem;
+}
+
+.experience__text{
+    font-size: 0.875rem;
+}
 
 /*Mobile*/
 @media (max-width: 425px) {
@@ -629,5 +662,4 @@ utilize como referência os breakpoints @media abaixo*/
  /*Contato*/
 
 /*Footer*/
-
 }
