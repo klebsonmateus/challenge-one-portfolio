@@ -475,11 +475,19 @@ utilize como referência os breakpoints @media abaixo*/
 /*Tablet*/
 @media (max-width: 768px) {
 
-    body {
-        background-color: red;
-    }
-/* Menu */
 
+/* Menu */
+.menu{
+    margin: -1rem 1rem;
+}
+.menu__list {
+    display: none;
+}
+
+.menu__list__item__contato {
+    font-weight: 400;
+    font-size: 1rem;
+}
 /*title*/
 
 /*Skills*/
