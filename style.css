@@ -382,8 +382,70 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Contato*/
 
-section.formcontato{
+.formcontato{
+background-color: #EAF2FD;
+}
 
+.formcontato__contacto{
+    max-width: 1136px;
+    margin: 0 auto;
+    padding: 8rem 0; 
+    display: flex;
+    gap: 1rem;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.formcontato__title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #464646;
+    margin-bottom: 1rem;
+}
+
+.formcontato__subtext{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #464646;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.formcontato__input{
+    height: 56px;
+    padding-left: 12px;
+    border-radius: 4px;
+    border-style: none;
+    box-shadow: 0 1px #c8c8c8;
+}
+
+.formcontato__textarea{
+    height: 133px;
+    padding-left: 12px;
+    padding-top: 1rem;
+    border-radius: 4px;
+    border-style: none;
+    box-shadow: 0 1px #c8c8c8;
+    resize: none;
+}
+
+.formcontato__botao{
+    background-color: #2A7AE4;
+    color: white;
+    width: 165px;
+    height: 51px;
+    border-style: none;
+    
 }
 
 /*footeer*/
