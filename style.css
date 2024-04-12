@@ -473,7 +473,7 @@ background-color: #EAF2FD;
 utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1200px)  {
 
 
 /* Menu */
@@ -514,7 +514,7 @@ utilize como referência os breakpoints @media abaixo*/
 /*About*/
 .about__container {
     margin: 0;
-    padding: 32px;
+    padding: 2rem;
 }
 
 .about__title {
@@ -528,8 +528,51 @@ utilize como referência os breakpoints @media abaixo*/
 
 
 /*Skills*/
+.skills {
+    margin: 2rem;
+}
 
+.skills__title {
+    font-size: 1.375rem;
+}
+
+.skills__line{
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    width: 704px;
+    margin: 0 auto;
+}
+
+
+.skills__box > ul{ 
+    width: 224px;
+    height: 118px;
+    margin-bottom: 2rem;
+}
 /*Hobbies*/
+
+.hobbies {
+    margin: 2rem;
+}
+
+.hobbies__title {
+    font-size: 1.375rem;
+}
+
+.hobbies__line {
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    width: 704px;
+    margin: 0 auto;
+}
+
+.hobbies__box > ul{ 
+    width: 224px;
+    height: 118px;
+    margin-bottom: 2rem;
+}
 
 /*Experiências acadêmicas*/
 
