@@ -5,19 +5,18 @@
      <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/168887837-b6d26532-6782-48dc-92eb-e48bf6c57a15.png">
 </p>
 
-###  Primeiros Passos:
+###  Demo:
 ---
-#### 🔹Marque esse projeto com uma ⭐
-#### 🔹Siga as orientações do que temos neste repositório 📚
+#### Você pode acessar a DEMO deste projeto [CLICANDO AQUI](https://challenge-one-portfolio-seven.vercel.app/)
 
 
-### Analisando nosso repositório!
+### O que foi realizado?
 ---
-### Este é o repositório base do nosso projeto, nele voce encontrará:
-#### 🔹index.html: Documento HTML finalizado que você pode utilizar em seu projeto. Fonte, CSS e JavaScript já linkado e todas as sessões comentadas. Sinta-se a vontade para executar o seu próprio HTML caso deseje;
-#### 🔹style.css: Documento de CSS com instruções de estilo e também algumas sugestões para seu desenvolvimento
-#### 🔹validacao.js: Documento vazio para que possa aplicar sua lógica de programação, trabalhando com a validação de formulário em JavaScript
-#### Ao clonar, ou realizar o download do projeto base, você tera essa apresentação:
+### Este projeto foi realizado como uma atividade do Bootcamp Oracle ONE da Alura, nesta atividade foram fornecidos os seguintes arquivos:
+#### 🔹index.html: Documento HTML finalizado. Fonte, CSS e JavaScript já linkado e todas as sessões comentadas.
+#### 🔹style.css: Documento de CSS com instruções de estilo.
+#### 🔹validacao.js: Documento vazio.
+#### Ao clonar o projeto base essa era a visualização:
 
 
 <p align="center" >
