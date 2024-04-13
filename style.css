@@ -2,11 +2,11 @@
 /*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
 coloque nas sessões indicadas*/
 
-:root{
+:root {
     /*Insira a variavel das outras cores inspecionando o modelo do figma*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
 }
 
 * {
@@ -16,14 +16,18 @@ coloque nas sessões indicadas*/
 }
 
 body {
-    background-color: var(--cor-de-fundo) ;
+    background-color: var(--cor-de-fundo);
     font-family: 'Raleway';
     line-height: 1;
 }
-ol, ul,li {
+
+ol,
+ul,
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--cor-de-link);
 }
@@ -43,24 +47,24 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sessão Menu*/
 
-.menu{
+.menu {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     max-width: 1136px;
-    margin: 0 auto ;
+    margin: 0 auto;
     margin-bottom: 2rem;
     padding: 2rem 0;
 
 }
 
-.menu header{
+.menu header {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 0.5rem;
-    
+
 
 }
 
@@ -70,7 +74,7 @@ https://en.bem.info/methodology/quick-start/*/
     color: #464646;
 }
 
-.menu nav{
+.menu nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -81,7 +85,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 }
 
-.menu__list{
+.menu__list {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -95,12 +99,12 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sessão Title*/
 .title {
     max-width: 1136px;
-    margin: 0 auto ; 
+    margin: 0 auto;
     margin-bottom: 2rem;
 
 }
 
-.title__div{
+.title__div {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -144,21 +148,21 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sessão About*/
 
-.about{
+.about {
     background-color: #EAF2FD;
-    
+
 
 }
 
 .about__container {
     max-width: 1136px;
-    margin: 0 auto ;
+    margin: 0 auto;
     padding: 4rem 0;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     justify-content: flex;
-    
+
 
 }
 
@@ -168,30 +172,30 @@ https://en.bem.info/methodology/quick-start/*/
     color: #464646;
 }
 
-.about__paragraph{
+.about__paragraph {
     font-size: 1rem;
     font-weight: 400;
     color: #464646;
     padding-right: 24rem;
 }
 
-.about__container > img {
+.about__container>img {
     width: 140px;
     height: 52px;
 }
 
 /*Sessão Skills*/
 
-.skills {  
+.skills {
     max-width: 1136px;
-    margin: 2rem auto 5.5rem auto ;
+    margin: 2rem auto 5.5rem auto;
     margin-bottom: 5.5rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.skills__title{
+.skills__title {
     font-size: 2rem;
     font-weight: 700;
     color: #464646;
@@ -205,7 +209,7 @@ https://en.bem.info/methodology/quick-start/*/
     gap: 1rem;
 }
 
-.skills__box > ul {
+.skills__box>ul {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -214,17 +218,18 @@ https://en.bem.info/methodology/quick-start/*/
     justify-content: flex-end;
     padding: 1rem;
 }
+
 /*Sessão Hobbies*/
 
-.hobbies{
+.hobbies {
     max-width: 1136px;
-    margin: 0 auto 5.5rem auto ;
+    margin: 0 auto 5.5rem auto;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.hobbies__title{
+.hobbies__title {
     font-size: 2rem;
     font-weight: 700;
     color: #464646;
@@ -238,7 +243,7 @@ https://en.bem.info/methodology/quick-start/*/
     gap: 1rem;
 }
 
-.hobbies__box > ul {
+.hobbies__box>ul {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -250,7 +255,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 /* Experiência Acadêmica*/
 
-.academic{
+.academic {
     background-color: #EAF2FD;
 }
 
@@ -261,7 +266,7 @@ https://en.bem.info/methodology/quick-start/*/
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    
+
 }
 
 .academic__title {
@@ -271,30 +276,30 @@ https://en.bem.info/methodology/quick-start/*/
     text-align: center;
 }
 
-.academic__courses{
+.academic__courses {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 1rem;
 }
 
-.academic__courses__list{
+.academic__courses__list {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
 
-.academic__courses__item__img{
+.academic__courses__item__img {
     background-color: white;
     width: 368px;
     height: 286px;
     display: flex;
-    
+
 }
 
-.academic__courses__item__img>img{
-       margin: auto;
+.academic__courses__item__img>img {
+    margin: auto;
 }
 
 .academic__courses__item__title {
@@ -311,7 +316,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 /* experiência*/
 
-.experience{
+.experience {
     max-width: 1136px;
     margin: 0 auto;
     padding: 2rem 0;
@@ -339,19 +344,19 @@ https://en.bem.info/methodology/quick-start/*/
     flex-direction: row-reverse;
 }
 
-.experience__info{
+.experience__info {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.experience__title{
+.experience__title {
     font-size: 1.375rem;
     font-weight: bold;
     color: #464646;
 }
 
-.experience__text{
+.experience__text {
     font-size: 1rem;
     font-weight: 500;
     color: #464646;
@@ -379,46 +384,46 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Contato*/
 
-.formcontato{
-background-color: #EAF2FD;
+.formcontato {
+    background-color: #EAF2FD;
 }
 
-.formcontato__contacto{
+.formcontato__contacto {
     max-width: 1136px;
     margin: 0 auto;
-    padding: 8rem 0; 
+    padding: 8rem 0;
     display: flex;
     gap: 1rem;
 }
 
-.formcontato__text{
+.formcontato__text {
     display: flex;
     flex-direction: column;
     width: 100%;
-    
+
 }
 
-.formcontato__title{
+.formcontato__title {
     font-size: 2rem;
     font-weight: 700;
     color: #464646;
     margin-bottom: 1rem;
 }
 
-.formcontato__subtext{
+.formcontato__subtext {
     font-size: 1rem;
     font-weight: 500;
     color: #464646;
 }
 
-.formcontato__form{
+.formcontato__form {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     margin-top: 2rem;
 }
 
-.formcontato__input{
+.formcontato__input {
     height: 56px;
     padding-left: 12px;
     border-radius: 4px;
@@ -426,7 +431,7 @@ background-color: #EAF2FD;
     box-shadow: 0 1px #c8c8c8;
 }
 
-.formcontato__textarea{
+.formcontato__textarea {
     height: 133px;
     padding-left: 12px;
     padding-top: 1rem;
@@ -436,22 +441,22 @@ background-color: #EAF2FD;
     resize: none;
 }
 
-.formcontato__botao{
+.formcontato__botao {
     background-color: #2A7AE4;
     color: white;
     width: 165px;
     height: 51px;
     border-style: none;
-    
+
 }
 
 /*footeer*/
 
-.footer{
+.footer {
 
     background-color: white;
-    
-   
+
+
 }
 
 .footer__rodape {
@@ -463,233 +468,282 @@ background-color: #EAF2FD;
     font-size: 1rem;
     font-weight: 500;
     color: #464646;
-    
+
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
 utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
-@media (min-width: 768px) and (max-width: 1199px)  {
+@media (min-width: 768px) and (max-width: 1199px) {
 
 
-/* Menu */
-.menu{
-    margin: 1rem;
-    padding: 0;
+    /* Menu */
+    .menu {
+        margin: 1rem;
+        padding: 0;
+    }
+
+    .menu__list {
+        display: none;
+    }
+
+
+    /*title*/
+    .title {
+        margin: 2rem;
+    }
+
+    .title__profile {
+        width: 146px;
+        height: 146px;
+    }
+
+    .title__bio {
+        font-size: 1.375rem;
+    }
+
+    .title__subsection {
+        font-size: 1rem;
+    }
+
+    .title__network {
+        gap: 2rem;
+    }
+
+    /*About*/
+    .about__container {
+        margin: 0;
+        padding: 2rem;
+    }
+
+    .about__title {
+        font-size: 1.375rem;
+    }
+
+    .about__paragraph {
+        font-size: 0.875rem;
+        padding: 0;
+    }
+
+
+    /*Skills*/
+    .skills {
+        margin: 2rem;
+    }
+
+    .skills__title {
+        font-size: 1.375rem;
+    }
+
+    .skills__line {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        width: 704px;
+        margin: 0 auto;
+    }
+
+
+    .skills__box>ul {
+        width: 224px;
+        height: 118px;
+        margin-bottom: 2rem;
+    }
+
+    /*Hobbies*/
+
+    .hobbies {
+        margin: 2rem;
+        margin-bottom: 0;
+    }
+
+    .hobbies__title {
+        font-size: 1.375rem;
+    }
+
+    .hobbies__line {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        width: 704px;
+        margin: 0 auto;
+    }
+
+    .hobbies__box>ul {
+        width: 224px;
+        height: 118px;
+        margin-bottom: 2rem;
+    }
+
+    /*Experiências acadêmicas*/
+    .academic__container {
+        padding: 2rem;
+    }
+
+    .academic__title {
+        font-size: 1.375rem;
+    }
+
+    .academic__courses {
+        width: 704px;
+        margin: 0 auto;
+    }
+
+    .academic__courses__item__img {
+        width: 224px;
+        height: 118px;
+    }
+
+    .academic__courses__item__img>img {
+        height: 58px;
+    }
+
+    .academic__courses__item__title {
+        font-size: 1rem;
+    }
+
+    .academic__courses__item__subtitle {
+        font-size: 0.875rem;
+    }
+
+
+    /*Experiência profissional*/
+
+    .experience {
+        margin: 0;
+        gap: 4rem;
+    }
+
+    .experience__section__title {
+        font-size: 1.375rem;
+    }
+
+    .experience__box {
+        flex-direction: column;
+    }
+
+    .experience__box:nth-child(odd) {
+        flex-direction: column;
+    }
+
+    .experience__img {
+        width: 704px;
+        height: 320px;
+    }
+
+    .experience__info {
+        width: 704px;
+    }
+
+    .experience__title {
+        font-size: 1rem;
+    }
+
+    .experience__text {
+        font-size: 0.875rem;
+    }
+
+    /*Contato*/
+    .formcontato__contacto {
+        padding: 2rem;
+    }
+
+    .formcontato__img {
+        display: none;
+    }
+
+    .formcontato__title {
+        font-size: 1.375rem;
+    }
+
+    .formcontato__subtitle {
+        font-size: 1rem;
+    }
+
+    .formcontato__botao {
+        width: 151px;
+        height: 40px;
+        font-size: 0.875rem;
+    }
+
+    /*Footer*/
 }
-.menu__list {
-    display: none;
-}
 
-
-/*title*/
-.title {
-    margin: 2rem ; 
-}
-
-.title__profile{
-    width:146px;
-    height: 146px;
-}
-
-.title__bio{
-   font-size: 1.375rem; 
-}
-
-.title__subsection{
-    font-size: 1rem;
-}
-
-.title__network {
-    gap: 2rem;
-}
-
-/*About*/
-.about__container {
-    margin: 0;
-    padding: 2rem;
-}
-
-.about__title {
-    font-size: 1.375rem;
-}
-
-.about__paragraph{
-    font-size: 0.875rem;
-    padding: 0;
-}
-
-
-/*Skills*/
-.skills {
-    margin: 2rem;
-}
-
-.skills__title {
-    font-size: 1.375rem;
-}
-
-.skills__line{
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    width: 704px;
-    margin: 0 auto;
-}
-
-
-.skills__box > ul{ 
-    width: 224px;
-    height: 118px;
-    margin-bottom: 2rem;
-}
-/*Hobbies*/
-
-.hobbies {
-    margin: 2rem;
-    margin-bottom: 0;
-}
-
-.hobbies__title {
-    font-size: 1.375rem;
-}
-
-.hobbies__line {
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    width: 704px;
-    margin: 0 auto;
-}
-
-.hobbies__box > ul{ 
-    width: 224px;
-    height: 118px;
-    margin-bottom: 2rem;
-}
-
-/*Experiências acadêmicas*/
-.academic__container{
-    padding: 2rem;
-}
-
-.academic__title{
-    font-size: 1.375rem;
-}
-
-.academic__courses{
-    width: 704px;
-    margin: 0 auto;
-}
-
-.academic__courses__item__img{
-    width: 224px;
-    height: 118px;
-}
-
-.academic__courses__item__img>img{
-    height: 58px;
-}
-
-.academic__courses__item__title {
-    font-size: 1rem;
-}
-
-.academic__courses__item__subtitle {
-    font-size: 0.875rem;
-}
-
-
-/*Experiência profissional*/
-
-.experience{
-    margin: 0;
-    gap: 4rem;
-}
-
-.experience__section__title{
-    font-size: 1.375rem;
-}
-
-.experience__box {
-    flex-direction: column;
-}
-
-.experience__box:nth-child(odd) {
-    flex-direction: column;
-}
-
-.experience__img {
-    width: 704px;
-    height: 320px;
-}
-
-.experience__info{
-    width: 704px;
-}
-
-.experience__title {
-    font-size: 1rem;
-}
-
-.experience__text{
-    font-size: 0.875rem;
-}
-
-/*Contato*/
-.formcontato__contacto{
-    padding: 2rem;
-}
-
-.formcontato__img{
-    display: none;
-}
-
-.formcontato__title{
-    font-size: 1.375rem;
-}
-
-.formcontato__subtitle{
-    font-size: 1rem;
-}
-
-.formcontato__botao{
-    width: 151px;
-    height: 40px;
-    font-size: 0.875rem;
-}
-/*Footer*/
-}
 /*Mobile*/
 @media (min-width: 425px) and (max-width: 767px) {
 
-/*Menu*/
-.menu{
-    margin: 1rem;
-    padding: 0;
-}
-.menu__list {
-    display: none;
-}
+    /*Menu*/
+    .menu {
+        margin: 1rem;
+        padding: 0;
+    }
 
-.menu__list__item__contato {
-    font-weight: 400;
-    font-size: 1rem;
-}
-/*Titulo*/
+    .menu__list {
+        display: none;
+    }
 
-/*Sessão sobre*/
+    .menu__list__item__contato {
+        font-weight: 400;
+        font-size: 1rem;
+    }
 
-/*Skills*/
+    /*Titulo*/
+    .title {
+        margin: 1rem;
 
-/*Hobbies*/
- 
-/*Formação Acadêmica*/
+    }
 
-/*Experiência Profissional*/
+    .title__div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
- /*Contato*/
+    .title__profile {
+        width: 98px;
+        height: 98px;
+    }
 
-/*Footer*/
+    .title__container {
+        padding: 0;
+    }
+
+    .title__bio {
+        font-size: 1.375rem;
+    }
+
+    .title__subsection {
+        font-size: 0.875rem;
+    }
+
+    .title__network__item {
+        font-size: 0.875rem;
+        font-weight: 600;
+    }
+
+    /*Sessão sobre*/
+    .about__container {
+        padding: 1rem;
+    }
+
+    .about__title {
+        font-size: 1.375rem;
+    }
+
+    .about__paragraph {
+        font-size: 0.875rem;
+        padding: 0;
+    }
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Formação Acadêmica*/
+
+    /*Experiência Profissional*/
+
+    /*Contato*/
+
+    /*Footer*/
 }
