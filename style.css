@@ -811,7 +811,40 @@ utilize como referência os breakpoints @media abaixo*/
         font-size: 0.875rem;
     }
     /*Experiência Profissional*/
+    .experience {
+        padding: 1rem;
+    }
 
+    .experience__section__title {
+        font-size: 1.375rem;
+    }
+
+    .experience__box{
+        flex-direction: column;
+    }
+
+    .experience__box:nth-child(odd) {
+        flex-direction: column;
+    }
+
+    .experience__info {
+        width: 296px;
+    }
+
+    .experience__img {
+        width: 296px;
+        height: 144px;
+    }
+
+    .experience__title {
+        font-size: 1rem;
+    }
+
+    .experience__text{
+        font-size: 0.875rem;
+    }
+
+    
     /*Contato*/
 
     /*Footer*/
