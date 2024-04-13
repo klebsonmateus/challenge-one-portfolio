@@ -846,8 +846,19 @@ utilize como referência os breakpoints @media abaixo*/
 
     
     /*Contato*/
-    .formcontato {
-
+    .formcontato__contacto {
+        padding: 2rem;
     }
-    /*Footer*/
+
+    .formcontato--esquerda {
+        display: none;
+    }
+
+    .formcontato__title {
+        font-size: 1.375rem;
+    }
+
+    .formcontato__subtext {
+        font-size: 1rem;
+    }
 }
