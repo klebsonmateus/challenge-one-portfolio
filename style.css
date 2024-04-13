@@ -812,7 +812,7 @@ utilize como referência os breakpoints @media abaixo*/
     }
     /*Experiência Profissional*/
     .experience {
-        padding: 1rem;
+        padding: 2rem;
     }
 
     .experience__section__title {
@@ -846,6 +846,8 @@ utilize como referência os breakpoints @media abaixo*/
 
     
     /*Contato*/
+    .formcontato {
 
+    }
     /*Footer*/
 }
