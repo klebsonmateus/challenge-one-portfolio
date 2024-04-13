@@ -736,9 +736,50 @@ utilize como referência os breakpoints @media abaixo*/
     }
 
     /*Skills*/
+    .skills {
+        margin: 1rem;
+    }
 
+    .skills__title {
+        font-size: 1.375rem;
+    }
+
+    .skills__line {
+        flex-wrap: wrap;
+        width: 328px;
+        margin: 0 auto;
+    }
+
+    .skills__box{
+        margin-bottom: 1rem;
+    }
+    .skills__box > ul{
+        width: 156px;
+        height: 118px;
+    }
     /*Hobbies*/
+    .hobbies {
+        margin: 1rem;
+        margin-bottom: 0;
+    }
 
+    .hobbies__title {
+        font-size: 1.375rem;
+    }
+
+    .hobbies__line {
+        flex-wrap: wrap;
+        width: 328px;
+        margin: 0 auto;
+    }
+
+    .hobbies__box{
+        margin-bottom: 1rem;
+    }
+    .hobbies__box > ul{
+        width: 156px;
+        height: 118px;
+    }
     /*Formação Acadêmica*/
 
     /*Experiência Profissional*/
