@@ -680,7 +680,7 @@ utilize como referência os breakpoints @media abaixo*/
 }
 
 /*Mobile*/
-@media (min-width: 425px) and (max-width: 767px) {
+@media (max-width: 767px) {
 
     /*Menu*/
     .menu {
