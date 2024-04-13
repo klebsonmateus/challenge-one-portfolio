@@ -781,7 +781,35 @@ utilize como referência os breakpoints @media abaixo*/
         height: 118px;
     }
     /*Formação Acadêmica*/
+    .academic__container {
+        padding: 1rem;
+    }
 
+    .academic__title {
+        font-size: 1.375rem;
+    }
+
+    .academic__courses{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .academic__courses__item__img {
+        width: 296px;
+        height: 118px;
+    }
+
+    .academic__courses__item__img>img {
+        height: 58px;
+    }
+
+    .academic__courses__item__title {
+        font-size: 1rem;
+    }
+
+    .academic__courses__item__subtitle{
+        font-size: 0.875rem;
+    }
     /*Experiência Profissional*/
 
     /*Contato*/
