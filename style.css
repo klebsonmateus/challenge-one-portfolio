@@ -142,10 +142,6 @@ https://en.bem.info/methodology/quick-start/*/
     gap: 2rem;
 }
 
-
-
-
-
 /*Sessão About*/
 
 .about {
@@ -162,8 +158,6 @@ https://en.bem.info/methodology/quick-start/*/
     flex-direction: column;
     gap: 1rem;
     justify-content: flex;
-
-
 }
 
 .about__title {
@@ -416,29 +410,49 @@ https://en.bem.info/methodology/quick-start/*/
     color: #464646;
 }
 
-.formcontato__form {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin-top: 2rem;
+.formcontato__form{
+    margin-top: 1rem;
 }
 
-.formcontato__input {
-    height: 56px;
-    padding-left: 12px;
-    border-radius: 4px;
-    border-style: none;
-    box-shadow: 0 1px #c8c8c8;
+.formcontato__form__input {
+    position: relative;
+    padding: 0.75rem;
+    padding-top: 1.75rem;
+    background-color: white;
+    border-radius: 0.25rem;
+    border-bottom: 1px solid #c8c8c8;
+    margin-bottom: 1rem;
 }
 
-.formcontato__textarea {
-    height: 133px;
-    padding-left: 12px;
-    padding-top: 1rem;
-    border-radius: 4px;
-    border-style: none;
-    box-shadow: 0 1px #c8c8c8;
-    resize: none;
+.formcontato__form__input input,
+.formcontato__form__input textarea {
+    all: unset;
+    width: 100%;
+}
+
+.formcontato__form__input label {
+    color: #a2a2a2;
+    position: absolute;
+    top: 0;
+    left: 0.75rem;
+    transform: translateY(1.375rem);
+    transition: all 0.2s;
+}
+
+.formcontato__form__input input:focus+label,
+.formcontato__form__input input:not(:placeholder-shown)+label,
+.formcontato__form__input textarea:focus+label,
+.formcontato__form__input textarea:not(:placeholder-shown)+label {
+    font-size: 0.75rem;
+    transform: translateY(0.5rem);
+}
+
+.formcontato__form__input:focus-within {
+    border-bottom: 2px solid #2a7ae4;
+}
+
+.formcontato__form__input:focus-within label {
+    color: #2a7ae4;
 }
 
 .formcontato__botao {
@@ -447,16 +461,12 @@ https://en.bem.info/methodology/quick-start/*/
     width: 165px;
     height: 51px;
     border-style: none;
-
 }
 
 /*footeer*/
 
 .footer {
-
     background-color: white;
-
-
 }
 
 .footer__rodape {
@@ -468,7 +478,6 @@ https://en.bem.info/methodology/quick-start/*/
     font-size: 1rem;
     font-weight: 500;
     color: #464646;
-
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
@@ -750,13 +759,15 @@ utilize como referência os breakpoints @media abaixo*/
         margin: 0 auto;
     }
 
-    .skills__box{
+    .skills__box {
         margin-bottom: 1rem;
     }
-    .skills__box > ul{
+
+    .skills__box>ul {
         width: 156px;
         height: 118px;
     }
+
     /*Hobbies*/
     .hobbies {
         margin: 1rem;
@@ -773,13 +784,15 @@ utilize como referência os breakpoints @media abaixo*/
         margin: 0 auto;
     }
 
-    .hobbies__box{
+    .hobbies__box {
         margin-bottom: 1rem;
     }
-    .hobbies__box > ul{
+
+    .hobbies__box>ul {
         width: 156px;
         height: 118px;
     }
+
     /*Formação Acadêmica*/
     .academic__container {
         padding: 1rem;
@@ -789,7 +802,7 @@ utilize como referência os breakpoints @media abaixo*/
         font-size: 1.375rem;
     }
 
-    .academic__courses{
+    .academic__courses {
         flex-direction: column;
         margin: 0 auto;
     }
@@ -807,9 +820,10 @@ utilize como referência os breakpoints @media abaixo*/
         font-size: 1rem;
     }
 
-    .academic__courses__item__subtitle{
+    .academic__courses__item__subtitle {
         font-size: 0.875rem;
     }
+
     /*Experiência Profissional*/
     .experience {
         padding: 2rem;
@@ -819,7 +833,7 @@ utilize como referência os breakpoints @media abaixo*/
         font-size: 1.375rem;
     }
 
-    .experience__box{
+    .experience__box {
         flex-direction: column;
     }
 
@@ -840,11 +854,11 @@ utilize como referência os breakpoints @media abaixo*/
         font-size: 1rem;
     }
 
-    .experience__text{
+    .experience__text {
         font-size: 0.875rem;
     }
 
-    
+
     /*Contato*/
     .formcontato__contacto {
         padding: 2rem;
