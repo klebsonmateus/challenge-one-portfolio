@@ -1,0 +1,138 @@
+.experience {
+    max-width: 1136px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.experience__section__title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #464646;
+    text-align: center;
+    margin-bottom: -2rem;
+}
+
+.experience__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.experience__box:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.experience__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.experience__title {
+    font-size: 1.375rem;
+    font-weight: bold;
+    color: #464646;
+}
+
+.experience__text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #464646;
+}
+
+.experience__botao--repo {
+    width: 116px;
+    height: 51px;
+    background-color: #F5F5F5;
+    border-color: #2A7AE4;
+    color: #2A7AE4;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.experience__botao--demo {
+    width: 116px;
+    height: 51px;
+    background-color: #2A7AE4;
+    border-color: #2A7AE4;
+    color: #F5F5F5;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+
+    .experience {
+        margin: 0;
+        gap: 4rem;
+    }
+
+    .experience__section__title {
+        font-size: 1.375rem;
+    }
+
+    .experience__box {
+        flex-direction: column;
+    }
+
+    .experience__box:nth-child(odd) {
+        flex-direction: column;
+    }
+
+    .experience__img {
+        width: 704px;
+        height: 320px;
+    }
+
+    .experience__info {
+        width: 704px;
+    }
+
+    .experience__title {
+        font-size: 1rem;
+    }
+
+    .experience__text {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 767px) {
+   
+    .experience {
+        padding: 2rem;
+    }
+
+    .experience__section__title {
+        font-size: 1.375rem;
+    }
+
+    .experience__box {
+        flex-direction: column;
+    }
+
+    .experience__box:nth-child(odd) {
+        flex-direction: column;
+    }
+
+    .experience__info {
+        width: 296px;
+    }
+
+    .experience__img {
+        width: 296px;
+        height: 144px;
+    }
+
+    .experience__title {
+        font-size: 1rem;
+    }
+
+    .experience__text {
+        font-size: 0.875rem;
+    }
+}
