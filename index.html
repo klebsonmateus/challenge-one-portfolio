@@ -286,35 +286,41 @@
     <section class="formcontato">
         <div id="contato" class="formcontato__contacto">
             <div class="formcontato--esquerda">
-                <img class="formcontato__img" src="assets\contact_image.png">
+                <img class="formcontato__img" src="assets/contact_image.png">
             </div>
             <div class="formcontato__text">
                 <h2 class="formcontato__title">Contato</h2>
                 <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
                 <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido
-                    possível. </h3>
-                <form class="formcontato__form">
+                    possível.</h3>
+                <form id="contactForm" class="formcontato__form">
                     <div class="formcontato__form__input">
-                        <input type="text" placeholder="" id="nome">
+                        <input type="text" id="nome" name="nome"  required minlength="2" placeholder="">
                         <label for="nome">Nome</label>
+                        <span class="error-message" id="error-nome"></span>
                     </div>
                     <div class="formcontato__form__input">
-                        <input type="email" placeholder="" id="email">
+                        <input type="email" id="email" name="email"  required  placeholder="">
                         <label for="email">E-mail</label>
+                        <span class="error-message" id="error-email"></span>
                     </div>
                     <div class="formcontato__form__input">
-                        <input type="text" placeholder="" id="assunto">
+                        <input type="text" id="assunto" name="assunto" required minlength="3" placeholder="">
                         <label for="assunto">Assunto</label>
+                        <span class="error-message" id="error-assunto"></span>
                     </div>
                     <div class="formcontato__form__input">
-                        <textarea rows="10" placeholder=" "></textarea>
-                        <label for="nome">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="10" required 
+                            placeholder=""></textarea>
+                        <label for="mensagem">Mensagem</label>
+                        <span class="error-message" id="error-mensagem"></span>
                     </div>
-                    <button class="formcontato__botao">Enviar mensagem</button>
+                    <button type="submit" class="formcontato__botao">Enviar mensagem</button>
                 </form>
             </div>
         </div>
     </section>
+
 
     <!-- Sessão de Footer/Rodapé-->
     <section class="footer">
